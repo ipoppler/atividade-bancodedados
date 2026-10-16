@@ -1,0 +1,11 @@
+-- =========================================================================
+-- EXERCÍCIO: Controle Rigoroso de Estoque
+-- CONTEXTO: Sistema de E-commerce
+-- =========================================================================
+-- O que o código precisa fazer:
+-- 1. Criar a tabela 'estoque' (id, nome_item, quantidade).
+-- 2. Criar uma função de trigger BEFORE INSERT OR UPDATE que valide se a 
+--    quantidade do item é menor que zero (< 0).
+-- 3. Se for menor que zero, interromper a operação com 'RAISE EXCEPTION'.
+-- 4. Se for zero ou maior, permitir a operação.
+-- =========================================================================
