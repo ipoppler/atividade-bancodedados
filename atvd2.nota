@@ -1,0 +1,10 @@
+-- =========================================================================
+-- EXERCÍCIO: Atualização de Saldo Bancário por Transação
+-- CONTEXTO: Sistema de Conta Corrente
+-- =========================================================================
+-- O que o código precisa fazer:
+-- 1. Criar a tabela 'contas' (id, cliente, saldo).
+-- 2. Criar a tabela 'movimentacoes' (id, conta_id, tipo ['D' para Debito, 'C' para Credito], valor).
+-- 3. Criar uma trigger AFTER INSERT na tabela 'movimentacoes'.
+-- 4. A função deve atualizar o saldo da tabela 'contas' somando se for 'C' ou subtraindo se for 'D'.
+-- =========================================================================
